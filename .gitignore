@@ -1,0 +1,48 @@
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc.pytest_cache
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+venv/
+*.venv
+env/
+*.env
+
+# Jupyter Notebook files
+.ipynb_checkpoints/
+*.ipynb
+
+# Data files
+data/
+*.csv
+*.xlsx
+*.json
+*.h5
+*.pickle
+
+# Model files
+models/
+
+# Log files
+*.log
+
+# Configuration files
+config.py
+*.ini
+*.yml
+*.yaml
+
+# Streamlit artifacts
+streamlit_app/  # If using a separate folder for your Streamlit app
+streamlit_config.toml
+
+# Operating System artifacts
+.DS_Store
+Thumbs.db
